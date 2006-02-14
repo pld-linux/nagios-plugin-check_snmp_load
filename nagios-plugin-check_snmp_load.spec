@@ -21,7 +21,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_noautoreq 'perl(utils)'
 
 %description
-Checks by SNMP load or cpu usage (Windows, Linux/Unix, AS400, Cisco,
+Checks by SNMP load or CPU usage (Windows, Linux/Unix, AS400, Cisco,
 Cisco catalyst, HP Procurve, LinkProof, Blucoat, Nokia, Fortinet,
 Netscreen).
 
