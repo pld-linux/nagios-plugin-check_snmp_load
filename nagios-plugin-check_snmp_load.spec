@@ -2,7 +2,7 @@
 Summary:	Nagios plugin to check system load via SNMP
 Name:		nagios-plugin-check_snmp_load
 Version:	1.2
-Release:	0.3
+Release:	0.5
 License:	GPL
 Group:		Networking
 Source0:	http://patrick.proy.free.fr/nagios/check_snmp_load.pl
@@ -21,7 +21,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_noautoreq 'perl(utils)'
 
 %description
-Checks by SNMP v1, v2c or v3 CPU or average load.
+Checks by SNMP load or cpu usage (Windows, Linux/Unix, AS400, Cisco,
+Cisco catalyst, HP Procurve, LinkProof, Blucoat, Nokia, Fortinet,
+Netscreen).
 
 %description -l pl
 
