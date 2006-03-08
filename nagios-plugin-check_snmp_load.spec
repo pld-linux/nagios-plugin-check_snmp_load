@@ -3,7 +3,7 @@ Summary:	Nagios plugin to check system load via SNMP
 Summary(pl):	Wtyczka Nagiosa do sprawdzania obci±¿enia systemu poprzez SNMP
 Name:		nagios-plugin-check_snmp_load
 Version:	1.2
-Release:	0.5
+Release:	1
 License:	GPL
 Group:		Networking
 Source0:	http://patrick.proy.free.fr/nagios/check_snmp_load.pl
