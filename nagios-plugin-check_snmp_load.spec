@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Nagios plugin to check system load via SNMP
-Summary(pl.UTF-8):   Wtyczka Nagiosa do sprawdzania obciążenia systemu poprzez SNMP
+Summary(pl.UTF-8):	Wtyczka Nagiosa do sprawdzania obciążenia systemu poprzez SNMP
 Name:		nagios-plugin-check_snmp_load
 Version:	1.2
 Release:	1
