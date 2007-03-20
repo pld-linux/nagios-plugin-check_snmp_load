@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Nagios plugin to check system load via SNMP
-Summary(pl.UTF-8):	Wtyczka Nagiosa do sprawdzania obciÄ…Å¼enia systemu poprzez SNMP
+Summary(pl):	Wtyczka Nagiosa do sprawdzania obci±¿enia systemu poprzez SNMP
 Name:		nagios-plugin-check_snmp_load
 Version:	1.2
 Release:	1
@@ -26,8 +26,8 @@ Checks by SNMP load or CPU usage (Windows, Linux/Unix, AS400, Cisco,
 Cisco Catalyst, HP Procurve, LinkProof, Blucoat, Nokia, Fortinet,
 Netscreen).
 
-%description -l pl.UTF-8
-Ta wtyczka sprawdza poprzez SNMP obciÄ…Å¼enie lub wykorzystanie CPU w
+%description -l pl
+Ta wtyczka sprawdza poprzez SNMP obci±¿enie lub wykorzystanie CPU w
 systemach Windows, Linux/Unix, AS400, Cisco, Cisco Catalyst, HP
 Procurve, LinkProof, Blucoat, Nokia, Fortinet, Netscreen.
 
