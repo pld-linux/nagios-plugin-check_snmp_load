@@ -33,7 +33,7 @@ Procurve, LinkProof, Blucoat, Nokia, Fortinet, Netscreen.
 %prep
 %setup -q -c -T
 install %{SOURCE0} .
-%patch0 -p1
+%patch -P0 -p1
 sed -i -e 's,@plugindir@,%{_plugindir},' check_snmp_load.pl
 
 %install
